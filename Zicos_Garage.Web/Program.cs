@@ -16,6 +16,7 @@ namespace Zicos_Garage.Web
         {
             CreateWebHostBuilder(args).Build().Run();
         }
+        
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
